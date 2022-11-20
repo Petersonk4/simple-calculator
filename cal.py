@@ -13,7 +13,7 @@ print("2.Subtract")
 print("3.Multiply")
 print("Divide")
 
-While True:
+while True:
     choice = input("Enter choice(1/2/3/4): ")
     if choice in ('1', '2', '3', '4'):
         num1 = float(input("Enter first number: "))
